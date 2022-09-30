@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Source Code Pro";
+    src: url(fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: #f9f5f2;
+    padding: 100px;
+    font-family: "Source Code Pro";
+}
+
+span {
+    display: flex;
+    align-items: center;
+}
+
+div h1, div h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div h2 {
+    margin-left: 0;
+}
+
+div.contact {
+    display: flex;
+    margin-left: 120;
+
+}
+
+div.contact h2 {
+    font-size: 25;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 85;
+    font-weight: 10;
+}
+
+h2 {
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 28;
+    font-weight: lighter;
+}
+
+.name {
+    margin-bottom: 25px;
+}
+
+.name, .projects {
+    display: flex;
+    justify-content: center;
+}
+
+.resume {
+    margin-left: 100px;
+}
+
+.email {
+    margin-left: 150px;
+    margin-right: 120px;
+}
+
+.version {
+    color: #b7b7b7;
+    display: flex;
+    justify-content: center;
+    font-size: 25;
+}
+
+a img, a video {
+    color: black;
+}
+
+img, video {
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 50px;
+    margin: 40px;
+    object-fit: cover;
+}
+
+img, video {
+    width: 400;
+    height: 400;
+}
+
+
+h3, p {
+    margin: 40px;
+    margin-top: 0;
+    margin-left: 45;
+    width: 400;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24;
+}
+
+h4 {
+    font-weight: 10;
+}
+
+p {
+    font-size: 22;
+}
+
+.type {
+    width: 10ch;
+    animation: typing 1s steps(25), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    span, .name, .projects {
+        display: inline-block;
+        align-items: left;
+        justify-content: left;
+    }
+
+    .name {
+        margin-left: 55;
+    }
+
+    div.title h2 {
+        font-size: 25;
+    }
+
+    span div.contact {
+        margin-top: 50;
+        margin-left: 90;
+        display: inline-block;
+        align-items: center;
+        justify-content: left;
+    }
+
+    span div.contact h2 {
+        padding: 10;
+    }
+
+    h2.email {
+        margin-left: 0;
+    }
+
+    .projects {
+        margin-top: 0;
+        margin-left: 15;
+    }
+
+    h1.type {
+        margin-left: 0;
+    }
+
+    h1 {
+        margin-left: 40;
+    }
+
+    h2, .email {
+        margin-left: 100;
+    }
+
+    h3, p {
+        text-align: center;
+    }
+    
+  }
