@@ -130,6 +130,13 @@ p {
 }
 
 @media only screen and (max-width: 1300px) {
+
+    body {
+        margin-left: 225;
+        margin-top: 0;
+        padding-top: 30;
+    }
+
     span, .name, .projects {
         display: inline-block;
         align-items: left;
@@ -187,7 +194,7 @@ p {
 
     .version {
         position: absolute;
-        left: 225;
+        left: 455;
     }
     
   }
