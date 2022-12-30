@@ -80,17 +80,24 @@ a:visited {
     color: #f8dcfc;
 }
 
-
-a img, a video {
-    color: black;
+span > p {
+    background-color: orange;
+    color:#111111;
+    margin-bottom: 0;
+    z-index: 1;
+    position: relative;
+    top: -80;
+    left: 5;
 }
 
 img, video {
+    color: black;
     border-style: solid;
     border-width: 10px;
     border-radius: 0px;
     margin: 40px;
     object-fit: cover;
+    z-index: 0;
 }
 
 img, video {
@@ -98,6 +105,9 @@ img, video {
     height: 400;
 }
 
+.p0 {
+    filter: grayscale();
+}
 
 h3, p {
     margin: 40px;
