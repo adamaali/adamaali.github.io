@@ -105,10 +105,6 @@ img, video {
     height: 400;
 }
 
-.p0 {
-    filter: grayscale();
-}
-
 h3, p {
     margin: 40px;
     margin-top: 0;
