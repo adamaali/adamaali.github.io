@@ -132,7 +132,7 @@ p {
 @media only screen and (max-width: 1300px) {
 
     body {
-        margin-left: 225;
+        margin-left: 90;
         margin-top: 0;
         padding-top: 30;
     }
@@ -194,7 +194,7 @@ p {
 
     .version {
         position: absolute;
-        left: 455;
+        left: 310;
     }
     
   }
