@@ -127,11 +127,9 @@ p {
 }
 
 .annotation{
-    background-color: #888888;
     color: orange;
     position: absolute;
     transform: translate(10px, 10px);
-    border-radius: 10px;
     padding: 10px;
 }
 
