@@ -102,6 +102,10 @@ img, video, model-viewer {
     height: 400;
 }
 
+model-viewer {
+    margin-right: 0;
+}
+
 h3, p {
     margin: 40px;
     margin-top: 0;
